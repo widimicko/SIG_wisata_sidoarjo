@@ -1,0 +1,40 @@
+Religi, Sejarah, Kuliner, Hiburan, Kerajinan, Alam
+
+========================================================================================
+ALAM
+https://www.google.com/maps/place/Taman+Tanjung+Puri/@-7.4459451,112.6875224,13.52z/data=!4m13!1m7!3m6!1s0x2dd7e1343346658b:0x96cbcb91139dab36!2sSidoarjo,+Kec.+Sidoarjo,+Kabupaten+Sidoarjo,+Jawa+Timur!3b1!8m2!3d-7.4497718!4d112.7015495!3m4!1s0x2dd7e6ea391845bd:0xaaee742d87d39b9b!8m2!3d-7.4524334!4d112.7410116?hl=id
+-7.448583406734359, 112.74116657891528
+
+https://www.google.com/maps/place/Taman+Kahuripan/@-7.4459451,112.6875224,13.52z/data=!4m13!1m7!3m6!1s0x2dd7e1343346658b:0x96cbcb91139dab36!2sSidoarjo,+Kec.+Sidoarjo,+Kabupaten+Sidoarjo,+Jawa+Timur!3b1!8m2!3d-7.4497718!4d112.7015495!3m4!1s0x0:0x585b3be5b3acd2ea!8m2!3d-7.4388163!4d112.6961456?hl=id
+-7.438405662999026, 112.69631201378209
+
+========================================================================================
+KULINER
+https://www.google.com/maps/place/Bakso+Tutus+cabang+Karang+Ploso+Malang/@-7.4562861,112.709106,15.58z/data=!4m13!1m7!3m6!1s0x2dd7e1343346658b:0x96cbcb91139dab36!2sSidoarjo,+Kec.+Sidoarjo,+Kabupaten+Sidoarjo,+Jawa+Timur!3b1!8m2!3d-7.4497718!4d112.7015495!3m4!1s0x2dd7e115fe7810cb:0x3c848298e7e08105!8m2!3d-7.4550066!4d112.7062971?hl=id
+-7.454009537716605, 112.70745375956884
+
+https://www.google.com/maps/place/Bakso+Cak+Ndut+Tetelan+Urat/@-7.4562861,112.709106,15.58z/data=!4m13!1m7!3m6!1s0x2dd7e1343346658b:0x96cbcb91139dab36!2sSidoarjo,+Kec.+Sidoarjo,+Kabupaten+Sidoarjo,+Jawa+Timur!3b1!8m2!3d-7.4497718!4d112.7015495!3m4!1s0x0:0x47459f769b42cab3!8m2!3d-7.4535447!4d112.7054002?hl=id
+-7.452818060935489, 112.70560839958233
+
+https://www.google.com/maps/place/Ikan+Bakar+Cianjur/@-7.449996,112.7038475,16z/data=!4m8!1m2!2m1!1smasjid!3m4!1s0x2dd7fa36b25e27c1:0xf18912dd46897df0!8m2!3d-7.4498689!4d112.7037957?hl=id
+-7.449432175602407, 112.70375097697081 
+
+========================================================================================
+SEJARAH
+https://www.google.com/maps/place/Museum+Mpu+Tantular/@-7.4416233,112.6926572,14z/data=!4m9!1m2!2m1!1smuseum!3m5!1s0x2dd7f963d2d4fb4d:0xfd521173211bad9f!8m2!3d-7.4338593!4d112.7199058!15sCgZtdXNldW1aCCIGbXVzZXVtkgEGbXVzZXVt?hl=id
+-7.4329847769566495, 112.72025176525851
+
+https://www.google.com/maps/place/Heritage+Of+Handayani/@-7.4344519,112.6881227,16.62z/data=!4m13!1m7!3m6!1s0x2dd7e1343346658b:0x96cbcb91139dab36!2sSidoarjo,+Kec.+Sidoarjo,+Kabupaten+Sidoarjo,+Jawa+Timur!3b1!8m2!3d-7.4497718!4d112.7015495!3m4!1s0x2dd7e15ef53a1d4f:0x29968c450e7dc8b1!8m2!3d-7.4344249!4d112.6945395?hl=id
+-7.433994438056588, 112.69461364564876
+
+========================================================================================
+RELIGI
+https://www.google.com/maps/place/Masjid+Iskandariya/@-7.4416768,112.7058431,16z/data=!4m9!1m2!2m1!1smasjid!3m5!1s0x2dd7e151e191aac9:0x555a2d8cd48177de!8m2!3d-7.4400808!4d112.708055!15sCgZtYXNqaWSSAQZtb3NxdWU?hl=id
+-7.439432077294834, 112.70797813839302
+
+https://www.google.com/maps/place/Masjid+Nurul+Yaqin+Pondok+Jati/@-7.4416768,112.7058431,16z/data=!4m9!1m2!2m1!1smasjid!3m5!1s0x2dd7e14fe85200db:0xb727ec75aefaf410!8m2!3d-7.4431571!4d112.7048724!15sCgZtYXNqaWSSAQZtb3NxdWU?hl=id
+-7.44268745340659, 112.70484531827218
+
+https://www.google.com/maps/place/Masjid+Siti+Suci+Nur+Rochmah/@-7.4416768,112.7058431,16z/data=!4m9!1m2!2m1!1smasjid!3m5!1s0x2dd7e14c8be030a9:0xb3006aa22e562936!8m2!3d-7.4439713!4d112.7124578!15sCgZtYXNqaWSSAQZtb3NxdWU?hl=id
+-7.443435949246662, 112.71218305674313
+
