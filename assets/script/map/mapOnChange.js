@@ -26,7 +26,7 @@ function initialize() {
   if (latitudeElement.value !== '' && longitudeElement !== '') {
     center = new google.maps.LatLng(latitudeElement.value, longitudeElement.value)
   } else {
-    center = new google.maps.LatLng(-7.4471541, 112.6717158,13)
+    center = new google.maps.LatLng(-7.450438588833069, 112.70168816190534)
   }
 
   const mapProperty = {
@@ -41,7 +41,7 @@ function initialize() {
     const currentLocation = new google.maps.LatLng(latitudeElement.value, longitudeElement.value)
     setMarker(map, currentLocation)
   } else {
-    const setLocation = new google.maps.LatLng(-7.4471541, 112.6717158,13)
+    const setLocation = new google.maps.LatLng(-7.450438588833069, 112.70168816190534)
     setMarker(map, setLocation)
   }
 

@@ -31,6 +31,7 @@
           <option value="<?= $tourism['category'] ?>"><?= $tourism['category'] ?></option>
           <?php endwhile ?>
         </select>
+        <p id="data-message"></p>
         <input id="search" type="text" class="form-control w-25" placeholder="Pencarian">
       </div>
       

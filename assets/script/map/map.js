@@ -1,6 +1,7 @@
 const mapElement = document.getElementById("googleMap")
 const selectSearchElement = document.getElementById("select-by-category")
 const searchElement = document.getElementById("search")
+const dataMessageElement = document.getElementById("data-message")
 
 function initialize(category, search) {
 
@@ -31,12 +32,13 @@ function initialize(category, search) {
       if (Object.keys(responseJson.data).length === 0) {
         return mapElement.innerHTML = '<div class="mt-5 text-center">Data tidak ditemukan</div>'
       }
+    dataMessageElement.innerHTML = `${Object.keys(responseJson.data).length} Data ditemukan`
       responseJson.data.forEach(data => {
         addMarker(data)
       })
     })
     .catch(() => {
-      mapElement.innerHTML = '<div class="mt-5 text-center">Error 500: Terdapat kesalahan pada server</div>'
+      return mapElement.innerHTML = '<div class="mt-5 text-center">Error 500: Terdapat kesalahan pada server</div>'
     })
 
   function addMarker(data) {
@@ -84,6 +86,7 @@ if (mapElement) {
 
   let timeout = null;
   searchElement.addEventListener('keyup', (event) => {
+    dataMessageElement.innerHTML = ''
     mapElement.innerHTML = '<div class="py-5 mt-5 text-center"><div class="spinner-grow text-primary" role="status"></div><div class="spinner-grow text-secondary" role="status"></div><div class="spinner-grow text-success" role="status"></div><div class="spinner-grow text-danger" role="status"></div><div class="spinner-grow text-warning" role="status"></div><div class="spinner-grow text-info" role="status"></div><div class="spinner-grow text-light" role="status"></div><div class="spinner-grow text-dark" role="status"></div></div>'
     selectSearchElement.value = ''
     clearTimeout(timeout)
