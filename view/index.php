@@ -1,6 +1,18 @@
-<?php include './template/header.php' ?>
+<?php include './template/header.php'; session_start(); ?>
 
 <!-- CONTAINER -->
+<div class="mb-3">
+  <?php
+    if (isset($_SESSION['status'])) {
+        if ($_SESSION['status'] == 'success') {
+          echo '<div class="alert alert-success" role="alert">'.$_SESSION['message'].'</div>';
+        } else if ($_SESSION['status'] == 'failed') {
+          echo '<div class="alert alert-danger" role="alert">'.$_SESSION['message'].'</div>';
+        }
+    }
+    session_destroy();
+  ?>
+</div>
 
 <!-- MAP CONTAINER -->
 <div class="mb-3 card">

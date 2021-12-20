@@ -1,5 +1,6 @@
 <?php
 include '../model/connection.php';
+session_start();
 
 if(isset($_POST['submit'])) {
   $name = $_POST['name'];
@@ -12,9 +13,14 @@ if(isset($_POST['submit'])) {
   $query = mysqli_query($connection, $sql);
   
   if ($query) {
+    $_SESSION['status'] = 'success';
+    $_SESSION['message'] = 'Data "'.$name.'" berhasil ditambahkan';
     header('Location: ../view/index.php');
+
   } else {
-    echo "Failed Insert";
+    $_SESSION['status'] = 'failed';
+    $_SESSION['message'] = 'Data "'.$name.'" gagal ditambahkan';
+    header('Location: ../view/index.php');
   }
 }
 

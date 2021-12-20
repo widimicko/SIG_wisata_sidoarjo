@@ -1,5 +1,6 @@
 <?php
 include '../model/connection.php';
+session_start();
 
 if(isset($_POST['submit'])) {
   $id = $_POST['id'];
@@ -13,9 +14,14 @@ if(isset($_POST['submit'])) {
   $query = mysqli_query($connection, $sql);
   
   if ($query) {
+    $_SESSION['status'] = 'success';
+    $_SESSION['message'] = 'Data "'.$name.'" berhasil diubah';
     header('Location: ../view/index.php');
+
   } else {
-    echo "Failed Update";
+    $_SESSION['status'] = 'failed';
+    $_SESSION['message'] = 'Data "'.$name.'" gagal diubah';
+    header('Location: ../view/index.php');
   }
 }
 
