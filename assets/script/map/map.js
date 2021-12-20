@@ -15,13 +15,13 @@ function initialize(category, search) {
   const bounds = new google.maps.LatLngBounds()
 
 
-  let baseUrl = ''
+  let baseUrl = `${window.location.origin}/Kuliah/SIG/SIG_wisata_sidoarjo/model/`
   if (category !== '') {
-    baseUrl = `${window.location.origin}/Kuliah/SIG/SIG_wisata_sidoarjo/model/get_by_category.php?category=${category}`
+    baseUrl = `${baseUrl}get_by_category.php?category=${category}`
   } else if (search !== '') {
-    baseUrl = `${window.location.origin}/Kuliah/SIG/SIG_wisata_sidoarjo/model/search_wisata.php?search=${search}`
+    baseUrl = `${baseUrl}search_wisata.php?search=${search}`
   } else {
-    baseUrl = `${window.location.origin}/Kuliah/SIG/SIG_wisata_sidoarjo/model/get_list_wisata.php`
+    baseUrl = `${baseUrl}get_list_wisata.php`
   }
 
   fetch(baseUrl)
@@ -32,7 +32,8 @@ function initialize(category, search) {
       if (Object.keys(responseJson.data).length === 0) {
         return mapElement.innerHTML = '<div class="mt-5 text-center">Data tidak ditemukan</div>'
       }
-    dataMessageElement.innerHTML = `${Object.keys(responseJson.data).length} Data ditemukan`
+
+      dataMessageElement.innerHTML = `${Object.keys(responseJson.data).length} Data ditemukan`
       responseJson.data.forEach(data => {
         addMarker(data)
       })
